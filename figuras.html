@@ -7,8 +7,25 @@
     <title>Figuras geometricas | curso practico en js platzi</title>
 </head>
 <body>
-    <h1>Figuras geometricas</h1>
-
+    <header>
+        <h1>Figuras geometricas</h1>
+        <p>Este es el primer taller de curso practico de javaScrip</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form>
+            <label for="inputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+            <input id= "inputCuadrado" type="number"/>
+            <button type="button" onclick="CalcularPerimetroCuadrado()">
+                Calcular el Perimetro
+            </button>
+            <button type="button" onclick="CalcularAreaCuadrado()">
+                Calcular el Area
+            </button>
+        </form>
+    </section>
     <script src="./figuras.js"></script>
 </body>
 </html>
